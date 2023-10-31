@@ -2,7 +2,7 @@
 
 ## Hosting (Github Pages)
 
-[Hosting-Github Pages]([https://](https://stunning-adventure-634vz8r.pages.github.io/))
+[Hosting-Github Pages](https://stunning-adventure-634vz8r.pages.github.io/)
 
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
