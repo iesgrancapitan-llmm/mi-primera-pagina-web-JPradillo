@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jorge Pradillo">
+    <title>3.3: Cuerpo del documento</title>
+</head>
+<body>
+    <header align="center">
+        <h1>Cuerpo del documento</h1>
+        <h3>En este trabajo presentaremos las distintas etiquetas semánticas</h3>
+    </header>
+    <nav>
+        <a href="..//index.html">index.html</a>
+        <a href="#b">Elementos en negrita</a>
+        <a href="#i">Elementos en cursiva</a>
+    </nav>
+    <article id="b">
+        <p>Existen ciertas etiquetas cuyo uso se desaconseja con esta nueva filosofía del HTML semántico:
+            El elemento b debe usarse como último recurso cuando ningún otro elemento es más apropiado. En particular:</p>
+    </article>
+    <section>
+        <label for="file">Barra de progreso:</label>
+        <progress id="file" max="100" value="20">20%</progress>
+    </section>
+    <section>
+        <div>
+            <p>Para poner encabezados hay que usar los elementos h1 a h6.</p>
+            <h1>Hola</h1>
+            <h2>Hola</h2>
+            <h3>Hola</h3>
+            <h4>Hola</h4>
+            <h5>Hola</h5>
+            <h6>Hola</h6>
+        </div>
+        <hr>
+        <div>
+            <p>La importancia debe indicarse con el elemento strong</p>
+            <p>Esto es <strong>importante</strong></p>
+        </div>
+        <div>
+            <p>El texto marcado o resaltado debe usar el elemento mark</p>
+            <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum. Porro reprehenderit distinctio sed quam sequi aliquam, temporibus earum tempora sint. Quo soluta iste repellendus ipsa corrupti! Doloribus, velit cum.</strong>
+        </div>
+    </section>
+    <hr>
+    <article>
+        <p>Lo mismo ocurre con la etiqueta i: Se anima a los autores a considerar si otros elementos podrían ser más aplicables que el elemento i, por ejemplo</p>
+    </article>
+    <hr>
+    <section id="i">
+        <div>
+            <p>Para indicar énfasis debe usar el elemento em.</p>
+            <p><em>Esto</em> pone la palabra seleccionada dentro de la etiqueta en cursiva.</p>
+        </div>
+        <div>
+            <p>El elemento dfn para marcar la instancia definitoria de un término.</p>
+            <p><dfn>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</dfn> Magnam amet quidem iste, eos architecto enim? Facere dolorum laborum omnis veritatis inventore aut, aliquid animi temporibus harum, incidunt, neque labore odio!</p>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <p>&copy; Página creada por Jorge Pradillo Hinterberger.</p>
+    </footer>
+</body>
+</html>
