@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Jorge Pradillo">
+        <link rel="stylesheet" href="styles.css">
+        <title>Grid Garden</title>
+    </head>
+    <body>
+        <h1>Jorge Pradillo Hinterberger</h1>
+        <img src="Garden.png" alt="Garden" class="juego">
+        <div class="selectores">
+            <h2>propiedades</h2>
+            <p>Las propiedades vistos en el juego son:</p>
+            <ol>
+                <li>
+                    <p class="titulo"><code>grid-column-start: 2;</code></p>
+                    <p>Define la posición inicial de un elemento respecto a las columnas de la cuadrícula.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-column-end: 2;</code></p>
+                    <p>Define la posición final de un elemento respecto a las columnas de la cuadrícula. Si se le da un valor negativo comienza por la derecha, donde el -1 es el primer elemento.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-column-end: span 2;</code></p>
+                    <p>Funciona con valores positivos. Sirve para evitar definir un elemento en la cuadrícula basado en la posición inicial y final, de esta manera, puedes definirlo basado en la longitud de columnas deseada.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-column-start: span 3;</code></p>
+                    <p>Para establecer la anchura del elemento en relación a la posición final.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-column: 4&#47;6;</code></p>
+                    <p>Define la posición de un elemento respecto a las columnas de la cuadrícula. Es una propiedad abreviada que acepta ambos valores a la vez, separados por una barra oblicua.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-column: span 3&#47;5;</code></p>
+                    <p>La palabra clave span también funciona con esta propiedad.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-row-start: 2;</code></p>
+                    <p>Define la posición inicial de un elemento respecto a las filas de la cuadrícula. Funciona de manera semejante a grid-column-start pero a lo largo del eje vertical.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid- row: span 3&#47;6;</code></p>
+                    <p>Define la posición de un elemento respecto a las filas de la cuadrícula. (grid-row-start &#47; grid-row-end).</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-column: 2;</code></p>
+                    <p class="titulo"><code>grid-row: 5;</code></p>
+                    <p>Para establecer una posición en ambas dimensiones.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-area: 1&#47;2&#47;4&#47;6;</code></p>
+                    <p>Define la posición y el tamaño de un elemento en la cuadrícula. Admite 4 valores separados por barras oblicuas (grid-row-start &#47; grid-column-start &#47; grid-row-end &#47; grid-column-end).</p>
+                    <p>Se pueden superponer varios elementos.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>order: 2;</code></p>
+                    <p>Por defecto tiene el valor 0, pero puede ser establecido a cualquier valor positivo o negativo, de manera similar a z-index. Sirve para que si los elementos no se sitúan esplícitamente con grid-area, grid-column, etc, se sitúan automática de acuerdo al orden en el código fuente.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template-columns: 20% 20% 20% 20% 20%;</code></p>
+                    <p>Para que cada columna ocupe el mismo espacio o un tamaño específico.</p>
+                    <p>No solo acepta valores porcentuales, sino también otras unidades como píxeles y ems. Incluso puedes mezclar diferentes unidades a la vez, por ejemplo: (grid-template-columns: 100px 3em 40%;)</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template-rows: 20% 20% 20% 20% 20%;</code></p>
+                    <p>Para que cada fila tenga un porcentaje específico del total de la red o tabla.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template-columns: repeat(5, 20%);</code></p>
+                    <p>La función repeat evita tener que poner 5 veces 20% en el ejemplo anterior. De esta manera crea 5 columnas (o las que pongamos) y cada una con una anchura del 20%.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template-columns: 1fr 5fr;</code></p>
+                    <p>La fracción (fr) asigna una porción del espacio disponible. Si hay 6 columnas, 1fr = 1&#47;6 y 5fr = 5&#47;6.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template-columns: 50px repeat(3, 1fr) 50px;</code></p>
+                    <p>Esto genera una columna de 50px a la izquierda, una columna de 50px a la derecha y usa fr para crear 3 columnas más en el espacio que queda entre ellas.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template-rows: 50px 0 0 0 1fr;</code></p>
+                    <p>grid-template-rows funciona exactamente igual que grid-template-columns. Esto selecciona todo excepto los 50px de la parte superior y crea 5 filas.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template: 50% 50% &#47; 200px;</code></p>
+                    <p>Crea una cuadrícula con dos filas que ocupan el 50% del alto de cada una y una columna que será de 200px de ancho.</p>
+                </li>
+                <li>
+                    <p class="titulo"><code>grid-template: 1fr 50 &#47; 1fr 4fr;</code></p>
+                    <p>Crean un grid con dos filas y dos columnas, donde la segunda fila tiene una altura fija de 50px y la segunda es cuatro veces mas ancha que la primera.</p>
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>
