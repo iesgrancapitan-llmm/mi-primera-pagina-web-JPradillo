@@ -1,0 +1,55 @@
+/* Jorge Pradillo Hinterberger */
+
+table {
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+}
+
+#fila_teal {
+    color: teal;
+}
+
+#fila_red {
+    color: red;
+}
+
+#fila_blue {
+    color: blue;
+}
+
+#fila_orange {
+    color: orange;
+}
+
+#fila_purple {
+    color: purple;
+}
+
+#fila_olive {
+    color: olive;
+}
+
+#fila_fuchsia {
+    color: fuchsia;
+}
+
+#fila_green {
+    color: green;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td + td {
+    background-color: red;
+}
+
+td + td + td {
+    background-color: green;
+}
+
+td + td + td + td {
+    background-color: blue;
+}
