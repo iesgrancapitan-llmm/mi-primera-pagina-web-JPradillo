@@ -6,35 +6,35 @@ table {
     height: auto;
 }
 
-#fila_teal {
+.fila_teal {
     color: teal;
 }
 
-#fila_red {
+.fila_red {
     color: red;
 }
 
-#fila_blue {
+.fila_blue {
     color: blue;
 }
 
-#fila_orange {
+.fila_orange {
     color: orange;
 }
 
-#fila_purple {
+.fila_purple {
     color: purple;
 }
 
-#fila_olive {
+.fila_olive {
     color: olive;
 }
 
-#fila_fuchsia {
+.fila_fuchsia {
     color: fuchsia;
 }
 
-#fila_green {
+.fila_green {
     color: green;
 }
 
