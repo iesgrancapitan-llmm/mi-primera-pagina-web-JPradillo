@@ -6,35 +6,35 @@ table {
     height: auto;
 }
 
-.fila_teal {
+tr:first-of-type {
     color: teal;
 }
 
-.fila_red {
+tr:nth-child(2) {
     color: red;
 }
 
-.fila_blue {
+tr:nth-child(3) {
     color: blue;
 }
 
-.fila_orange {
+tr:nth-child(4) {
     color: orange;
 }
 
-.fila_purple {
+tr:nth-child(5) {
     color: purple;
 }
 
-.fila_olive {
+tr:nth-child(6) {
     color: olive;
 }
 
-.fila_fuchsia {
+tr:nth-child(7) {
     color: fuchsia;
 }
 
-.fila_green {
+tr:nth-child(8) {
     color: green;
 }
 

@@ -17,7 +17,7 @@ a {
     color: #C30;
 }
 
-.primero em {
+#primero em {
     color: #0000BB;
     background-color: #FFFFCC;
 }
@@ -27,6 +27,6 @@ a {
     background: #000000;
 }
 
-.segundo span {
+#segundo span {
     font-weight: bold;
 }
