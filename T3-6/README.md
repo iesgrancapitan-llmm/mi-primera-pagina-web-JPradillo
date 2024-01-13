@@ -58,7 +58,7 @@ Al hacer una caja de tipo bloque en CSS tenemos los elementos siguientes:
     sin espacios alrededor y con tus propios colores para que destaque 
     ![imagen](firefox-ultimo-parrafo.png)
     Envía un pantallazo como el adjunto firefox-ultimo-parrafo pero con tu apellido
-    ![Pantallazo](image.png)
+    ![Pantallazo](pantallazo.png)
 
 De interés
 - https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/The_box_model#m%C3%A1rgenes_relleno_y_bordes
