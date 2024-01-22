@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Agendas - Parlamento Europeo</title>
+    <link>https://www.europarl.europa.eu/news/es/agenda/weekly-agenda</link>
+    <description>La Agenda, publicada una vez a la semana, define la lista de los acontecimientos que tienen lugar en el Parlamento Europeo.</description>
+    <language>ES</language>
+    <copyright>© Unión Europea, 2024 - PE</copyright>
+    <pubDate>Wed, 17 Jan 2024 09:48:39 GMT</pubDate>
+    <item>
+      <title>Agenda - The Week Ahead 15 – 21 January 2024</title>
+      <link>https://www.europarl.europa.eu/news/en/agenda/weekly-agenda/2024-3</link>
+      <description>Plenary Session, Strasbourg&lt;br /&gt; &lt;br /&gt;Source : &lt;a href="https://www.europarl.europa.eu/privacy-policy/en"&gt;© European Union, 2024 - EP&lt;/a&gt;</description>
+      <source url="https://www.europarl.europa.eu/rss/doc/agendas-news/es.xml">Agendas - Parlamento Europeo</source>
+      <category domain="type">Agenda</category>
+      <pubDate>Fri, 12 Jan 2024 13:02:58 GMT</pubDate>
+      <guid isPermaLink="false">AGD_AGD-2024-03-00-00000_EN</guid>
+    </item>
+    <item>
+      <title>Agenda - Holiday recess</title>
+      <link>https://www.europarl.europa.eu/news/en/agenda/weekly-agenda/2023-1</link>
+      <description>Parliament’s offices will be closed from Friday 22 December until Tuesday 2 January inclusive.&lt;br /&gt; &lt;br /&gt;Source : &lt;a href="https://www.europarl.europa.eu/privacy-policy/en"&gt;© European Union, 2024 - EP&lt;/a&gt;</description>
+      <source url="https://www.europarl.europa.eu/rss/doc/agendas-news/es.xml">Agendas - Parlamento Europeo</source>
+      <category domain="type">Agenda</category>
+      <pubDate>Fri, 05 Jan 2024 07:13:01 GMT</pubDate>
+      <guid isPermaLink="false">AGD_AGD-2023-01-00-00000_EN</guid>
+    </item>
+  </channel>
+</rss>

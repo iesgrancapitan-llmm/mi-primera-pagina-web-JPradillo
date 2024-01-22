@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jorge Pradillo Hinterberger">
+    <title>Lenguaje de marcas en la Web</title>
+</head>
+<body>
+    <h1>UD2 A5 - Lenguaje de marcas en la Web</h1>
+    <h3>Indica qué es el lenguaje HTML.</h3>
+    <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</p>
+    <h3>Indica la relación de Tim Berners-Lee con HTML.</h3>
+    <p>Timothy "Tim" John Berners-Lee es un científico de la computación británico, conocido por ser el padre de la World Wide Web. Estableció la primera comunicación entre un cliente y un servidor usando el protocolo HTTP en diciembre de 1990.</p>
+    <h3>Indica las distintas versiones del lenguaje HTML.</h3>
+    <p>Los estándares oficiales HTML son el HTML 2.0, el HTML 3.2, el HTML 4.0, el HTML 4.01 y el HTML 5. El HTLM 5 es la última especificación oficial y se espera que continúe evolucionando a lo largo de los próximos años.</p>
+    <h3>Qué es la W3C.</h3>
+    <p>El World Wide Web Consortium, más conocido como W3C, es una organización internacional que tiene como objetivo crear estándares para la World Wide Web. Fue fundada en 1994 por Tim Berners-Lee, uno de los creadores de la web, y está compuesta por miembros de diversas empresas, organizaciones y gobiernos de todo el mundo.</p>
+    <h3>Qué es el WHATWG</h3>
+    <p>EL ( Grupo de trabajo de tecnología de aplicaciones de hipertexto web) por sus siglas en inglés WHATWG es una organización que mantinene y desarrolla HTML y APIs para las aplicaciones Web. Antiguos empleados de Apple, Mozilla y Opera establecieron el WHATWG en el 2004.</p>
+    <h3>Qué es un Living Standard.</h3>
+    <p>Esta especificación define una gran parte de la plataforma web con mucho detalle. Su lugar en la pila de especificaciones de la plataforma web en relación con otras especificaciones, se puede resumir mejor como se muestra en la imagen.</p>
+    <h3>Indica qué es el lenguaje XHTML</h3>
+    <p>XHTML (eXtensible HyperText Markup Language) (Lenguaje de marcado de hipertexto extensible) es, básicamente, HTML expresado como XML válido. Es más estricto a nivel técnico, pero esto permite que posteriormente sea más fácil al hacer cambios o buscar errores entre otros. En su versión 1.0, XHTML es solamente la versión XML de HTML, por lo que tiene, básicamente, las mismas funcionalidades, pero cumple las especificaciones, más estrictas, de XML.</p>
+    <h3>Indica las distintas versiones del lenguaje XHTML</h3>
+    <ul>
+        <li>XHTML 1.0 es HTML4 reformulado como una aplicación XML, y es compatible con versiones anteriores de HTML en casos limitados.</li>
+        <li>XHTML 1.1 es una versión modular de XHTML que no es compatible con versiones anteriores de HTML.</li>
+        <ul>
+            <li>Para entender mejor la Modularidad en XHTML.</li>
+        </ul>
+        <li>XHTML Básico es una versión simplificada pensada para los nuevos dispositivos de acceso a internet, como telefonos, PDAs, y otros.</li>
+    </ul>
+    <p>Actualmente se encuentra en desarrollo XHTML 2, con cambios significativos en el vocabulario de elementos.</p>
+    <h3>Indica las diferencias sintácticas y estructurales con entre XHTML y HTML</h3>
+    <h4>Generalidades</h4>
+    <ul>
+        <li>En XHTML para que un documento se muestre en el navegador tiene que ser "bien formado", es decir, tiene que cumplir todas las reglas sintácticas. En HTML, los documentos se muestran en el navegador aunque contengan errores sintácticos (la visualización puede ser correcta o incorrecta, dependiendo del tipo de errores de la página).</li>
+        <li>En XHTML no puede haber texto no incluido en alguna etiqueta, pero en HTML puede haberlo.</li>
+        <li>En XHTML, los nombres de elementos y atributos deben escribirse en minúsculas. En HTML no es necesario.</li>
+        <li>En XHTML, las referencias a entidades en hexadecimal deben escribirse en minúsculas. En HTML se pueden escribir en minúsculas o mayúsculas.</li>
+        <li>Para evitar problemas con los caracteres "&lt;" y "&amp;", en XHTML el código javascript (y de estilo) se suele incluir en secciones CDATA. En HTML no es necesario.</li>
+    </ul>
+    <h4>Etiquetas</h4>
+    <ul>
+        <li>En XHTML, la etiqueta de apertura de los elementos vacíos debe acabar en " />" o debe haber una etiqueta de cierre. En HTML no puede haber etiqueta de cierre.
+            <li>El cierre de las etiquetas vacías en XHTML puede tener o no un espacio delante. En la recomendación XHTML 1.0 se recomendaba dejar un espacio delante por compatibilidad con algunos navegadores (por ejemplo, Netscape 4.8), pero seguramente hace años que esos navegadores han desaparecido del mercado.</li>
+            <li>Las etiquetas vacías (void) de HTML son &lt;area&gt;, &lt;base&gt;, &lt;br&gt;, &lt;col&gt;, &lt;embed&gt;, &lt;hr&gt;, &lt;img&gt;, &lt;input&gt;, &lt;link&gt;, &lt;meta&gt;, &lt;param&gt;, &lt;source&gt;, &lt;track&gt; y &lt;wbr&gt;.</li>
+        </li>
+        <li>El elemento &lt;pre&gt; no puede contener elementos &lt;img&gt;, &lt;object&gt;, &lt;big&gt;, &lt;small&gt;, &lt;sub&gt; o &lt;sup&gt;.
+            <li>Nota: El validador del W3C dice que el ejemplo es anterior es correcto en XHTML pero la recomendación dice claramente que no lo es.</li>
+        </li>
+        <li>Los documentos XHTML tienen que tener un único elemento raíz de todo el documento, el elemento &lt;html&gt;. Los documentos HTML pueden no tenerlo.</li>
+        <li>En XHTML, los elementos no vacíos (los que tienen etiqueta de apertura) deben tener etiqueta de cierre. En HTML no es necesario.</li>
+        <li>El elemento &lt;label&gt; no puede contener elementos &lt;label&gt;.
+            <li>Nota: El validador del W3C dice que el ejemplo es anterior es correcto en XHTML, pero la recomendación dice claramente que no lo es.</li>
+        </li>
+    </ul>
+    <h4>Atributos</h4>
+    <ul>
+        <li>En XHTML, los atributos deben tener siempre valor (en el caso de atributos booleanos, el valor debe ser el propio nombre del atributo o una cadena vacía). En HTML, los atributos pueden no tener valor asignado.</li>
+        <li>En XHTML los valores de los atributos deben escribirse en minúsculas. En HTML se pueden escribir en minúsculas o mayúsculas.</li>
+        <li>En XHTML, los valores de los atributos deben escribirse entre comillas (dobles o simples). En HTML no es necesario si no hay espacios en blanco.</li>
+    </ul>
+</body>
+</html>
