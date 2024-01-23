@@ -2,21 +2,33 @@
 
 Date de alta en feedly.com y:
 
-- [Noticias](Noticias.png)
-- [Tecnología](Feedle.png)
+#### Categoría relacionada con un tema personal y original en categoría noticias
+
+![Noticias](Noticias.png)
+ 
+#### Categoría Tecnología y con una fuente de administración (Parlamento)
+
+![Tecnología](Feedle.png)
+  
 - De cualquiera de las fuentes encontradas extrae los ficheros XML con formato rss o atom y súbelos al repositorio.
     - [Fichero rss](Xataka-RSS)
     - [Fichero atom](Python-Atom)
 - Toma cada uno de los ficheros RSS y comprueba su validez
     - Fichero rss válido
-        - [Fuente](Parlamento-Europeo-RSS)
-        - [Imagen validator](Parlamento-Europeo-RSS.png)
+    
+    [Fuente](Parlamento-Europeo-RSS)
+    
+    ![Imagen validator](Parlamento-Europeo-RSS.png)
+    
     - Fichero atom
-        - [Fuente](Python-Atom)
-        - [Imagen validator](Python-Atom.png)
+    
+    [Fuente](Python-Atom)
+        
+    ![Imagen validator](Python-Atom.png)
+
 - Haz un listado de las etiquetas principales, debidamente organizadas
-    - [Fichero rss](listado-rss.html)
-    - [Fichero atom](listado-atom.html)
+    - [Fichero rss](listado-RSS.md)
+    - [Fichero atom](listado-ATOM.md)
 
 De interés:
 
