@@ -83,7 +83,10 @@ Indica aquí la url de tu sitio web.
 Utiliza el lector/agregador  feedly para añadir el fichero RSS que has creado.
 
   Muestra una captura del contenido de la sindicación del contenido
-  
+
+![RSS](../RSS.png)
+
+![Emoticono RSS](../Emoticono-RSS-Pagina-Web.png)
   
 De interés:
 - https://www.w3schools.com/xml/xml_rss.asp
