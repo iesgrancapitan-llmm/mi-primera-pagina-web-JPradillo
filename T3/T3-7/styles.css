@@ -1,84 +1,177 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 2em;
-    padding: 0;
-  }
-  
-  .grid-container {
+/* Jorge Pradillo Hinterberger */
+#container {
     display: grid;
-    grid-template-columns: auto repeat(5, 1fr);
-    grid-template-rows: auto repeat(8, auto);
-    gap: 8px;
-  }
+    grid-template-areas:
+    "...        dayL        dayM        dayX        dayJ        dayV"
+    "hour8      SIINL       LMSGIM      ENDESX      FOLJ        FOLV"
+    "hour9      SIINL       LMSGIM      ENDESX      SIINJ       FOLV"
+    "hour10     PROGL       SIINM       LMSGIX      SIINJ       BADAV"
+    "hour11     RECREO      RECREO      RECREO      RECREO      RECREO"
+    "hour112    PROGLU      SIINMA      LMSGIXI     ENDESJ      BADAVI"
+    "hour12     BADAL       PROGM       BADAX       PROGJV      PROGJV"
+    "hour13     BADAL       PROGM       BADAX       PROGJV      PROGJV"
+    ;
+    text-align: center;
+}
 
-.hour, .day, .time,
-.class, .break, .siin,
-.lmsgi, .endes, .fol,
-.prog, .bada, .recreo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ddd;
-  padding: 8px;
+div {
+    border: 1px solid red;
 }
-  
+
 .hour {
-    grid-area: auto;
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+    background-color: aqua;
 }
-  
-.day {
-    grid-area: auto;
-    border: 1px solid #ff0000;
-    padding: 8px;
-    font-weight: bold;
-    text-align: center;
-    background-color: #ffcc99;
+
+.hour8 {
+    grid-area: hour8;
 }
-  
-.time {
-    grid-area: auto;
-    border: 1px solid #ff0000;
-    padding: 8px;
-    text-align: center;
-    background-color: #ffcc99;
+
+.hour9 {
+    grid-area: hour9;
 }
-  
-.recreo {
-    grid-area: auto;
-    color: white;
-    background-color: #000000; 
+
+.hour10 {
+    grid-area: hour10;
 }
-  
+
+.hour11 {
+    grid-area: hour11;
+}
+
+.hour112 {
+    grid-area: hour112;
+}
+
+.hour12 {
+    grid-area: hour12;
+}
+
+.hour13 {
+    grid-area: hour13;
+}
+
+.dayL {
+    grid-area: dayL;
+}
+
+.dayM {
+    grid-area: dayM;
+}
+
+.dayX {
+    grid-area: dayX;
+}
+
+.dayJ {
+    grid-area: dayJ;
+}
+
+.dayV {
+    grid-area: dayV;
+}
+
 .siin {
-    grid-area: auto;
     background-color: #aaffaa;
 }
-  
+
+.siinL{
+    grid-area: SIINL;
+}
+
+.siinM {
+    grid-area: SIINM;
+}
+
+.siinMA {
+    grid-area: SIINMA;
+}
+
+.siinJ {
+    grid-area: SIINJ;
+}
+
 .lmsgi {
-    grid-area: auto;
     background-color: #aaf5ff;
 }
-  
+
+.lmsgiM {
+    grid-area: LMSGIM;
+}
+
+.lmsgiX {
+    grid-area: LMSGIX;
+}
+
+.lmsgiXI {
+    grid-area: LMSGIXI;
+}
+
 .endes {
-    grid-area: auto;
     background-color: #ff68e3;
 }
-  
+
+.endesX {
+    grid-area: ENDESX;
+}
+
+.endesJ {
+    grid-area: ENDESJ;
+}
+
 .fol {
-    grid-area: auto;
     background-color: #ff8000;
 }
-  
+
+.folJ {
+    grid-area: FOLJ;
+}
+
+.folV {
+    grid-area: FOLV;
+}
+
 .prog {
-    grid-area: auto;
     background-color: #ff9999;
 }
-  
+
+.progL {
+    grid-area: PROGL;
+}
+
+.progLU {
+    grid-area: PROGLU;
+}
+
+.progM {
+    grid-area: PROGM;
+}
+
+.progJV {
+    grid-area: PROGJV;
+}
+
 .bada {
-    grid-area: auto;
     background-color: #cc99ff;
 }
-  
+
+.badaL {
+    grid-area: BADAL;
+}
+
+.badaX {
+    grid-area: BADAX;
+}
+
+.badaV {
+    grid-area: BADAV;
+}
+
+.badaVI {
+    grid-area: BADAVI;
+}
+
+.recreo {
+    grid-area: RECREO;
+    background-color: black;
+    color: white;
+}
