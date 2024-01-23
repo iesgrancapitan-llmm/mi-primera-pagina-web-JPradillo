@@ -30,7 +30,7 @@ Subordinado al elemento &lt;rss&gt; hay un solo elemento &lt;channel&gt;, que co
   
 ## Requisitos de la entrega
 
-Realizarás una entrega RSS con los siguientes elementos:
+Realizarás una entrega [RSS](../RSS.xml) con los siguientes elementos:
 - Los elementos obligatorios del canal. (Título, enlace y descripción)
   - El enlace será el link de tu Github Pages (tarea UD3 A6. Mi sitio. Github pages).
 - Categoría y autoría del canal.
