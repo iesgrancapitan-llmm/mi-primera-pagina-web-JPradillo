@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mi primera página web</title>
+    <description>Primera página web de un alumno de 1º de DAW del IES Gran Capitán</description>
+    <link>https://stunning-adventure-634vz8r.pages.github.io/</link>
+    <webMaster>a23prhijo@iesgrancapitan.org</webMaster>
+    <language>es-ES</language>
+    <image>
+      <url>https://github.com/iesgrancapitan-llmm/ud4-a2-creacion-de-canales-de-contenidos-formato-rss-JPradillo/blob/main/Mi-Primera-Web.png</url>
+      <title>Mi primera página Web</title>
+      <link>https://stunning-adventure-634vz8r.pages.github.io/index.html</link>
+    </image>
+    <skipHours>
+      <hour>0</hour>
+      <hour>1</hour>
+      <hour>2</hour>
+      <hour>3</hour>
+      <hour>4</hour>
+      <hour>5</hour>
+    </skipHours>
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+    <item>
+      <title>CSS Dinner</title>
+      <link>https://stunning-adventure-634vz8r.pages.github.io/T3/T3-1/index.html</link>
+      <category>CSS</category>
+      <description>
+    Explicación de los selectores de CSS basándose en el juego interactivo CSS Dinner.
+      </description>
+      <pubDate>Sun, 19 Nov 2023 20:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Grid Garden</title>
+      <link>https://stunning-adventure-634vz8r.pages.github.io/T3/T3-2/index.html</link>
+      <category>CSS</category>
+      <description>
+      Explicación de las propiedades de CSS basándose en el juego interactivo Grid Garden.
+      </description>
+      <pubDate>Wed, 29 Nov 2023 12:24:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tipos de listas</title>
+      <link>https://stunning-adventure-634vz8r.pages.github.io/T2/T2-3/tarea3-P1.html#desordenada</link>
+      <category>HTML</category>
+      <description>
+      Demostración gráfica del distinto tipo de listas que hay en HTML
+      </description>
+      <pubDate>Sun, 26 Nov 2023 21:53:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Modelo de cajas en CSS</title>
+      <link>https://stunning-adventure-634vz8r.pages.github.io/T3/T3-6/</link>
+      <category>HTML/CSS</category>
+      <description>
+      Demostración de los distintos tipos de bordes que se pueden usar en la uión de HTML y CSS.
+      </description>
+      <pubDate>Sat, 13 Jan 2024 20:55:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

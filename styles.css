@@ -67,3 +67,8 @@
     padding-top: 20px;
     clear: both;
 }
+
+footer img {
+    width: 25px;     
+    height: auto;
+}
