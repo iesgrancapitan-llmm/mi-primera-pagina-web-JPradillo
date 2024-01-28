@@ -68,6 +68,10 @@
     clear: both;
 }
 
+footer p {
+    display: inline-block;
+}
+
 footer img {
     width: 25px;     
     height: auto;

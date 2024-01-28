@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://stunning-adventure-634vz8r.pages.github.io/">
+    <title>Mi primera página web</title>
+    <subtitle>Primera página web de un estudiante de 1ºDAW del IES Gran Capitán</subtitle>
+    <link href="https://stunning-adventure-634vz8r.pages.github.io/T4/T4-1/RSS-ATOM.html" rel="self"/>
+    <id>https://stunning-adventure-634vz8r.pages.github.io/T4/T4-1/RSS-ATOM.html</id>
+    <updated>2023-11-19T20:50:00Z</updated>
+    <author>
+        <name>Jorge Pradillo Hinterberger</name>
+        <email>a23prhijo@iesgrancapitan.org</email>
+        <uri>https://stunning-adventure-634vz8r.pages.github.io/T2/T2-2/tarea1.html</uri>
+    </author>
+    <category term="Desarrollo web"/>
+
+    <!--Introducimos las entidades-->
+    <entry>
+        <id>https://stunning-adventure-634vz8r.pages.github.io/index.html</id>
+        <title>Mi primera página web</title>
+        <link href="https://stunning-adventure-634vz8r.pages.github.io/index.html"/>
+        <author>
+            <name>Jorge Pradillo</name>
+        </author>
+        <source>
+            <id>https://stunning-adventure-634vz8r.pages.github.io/index.html</id>
+            <title>Mi primera página web</title>
+            <updated>2023-11-19T20:50:00Z</updated>
+        </source>
+        <summary>Mi propio portforlio</summary>
+        <content type="image/png" src="./Mi-Primera-Web.png"/>
+        <updated>2023-11-19T20:50:00Z</updated>
+    </entry>
+
+    <entry>
+        <id>https://stunning-adventure-634vz8r.pages.github.io/T3/T3-1/index.html</id>
+        <title>CSS Diner</title>
+        <link href="https://stunning-adventure-634vz8r.pages.github.io/T3/T3-1/index.html"/>
+        <author>
+            <name>Jorge Pradillo</name>
+        </author>
+        <source>
+            <id>https://stunning-adventure-634vz8r.pages.github.io/T3/T3-1/index.html</id>
+            <title>CSS Diner</title>
+            <updated>2023-11-19T20:50:00Z</updated>
+        </source>
+        <summary>CSS Dinner</summary>
+        <content type="image/png" src="./CSS_Dinner.png"/>
+        <updated>2023-11-19T20:50:00Z</updated>
+    </entry>
+    
+    <entry>
+        <id>https://stunning-adventure-634vz8r.pages.github.io/T2/T2-3/tarea3-P1.html#desordenada</id>
+        <title>Tipos de listas</title>
+        <link href="https://stunning-adventure-634vz8r.pages.github.io/T2/T2-3/tarea3-P1.html#desordenada"/>
+        <author>
+            <name>Jorge Pradillo</name>
+        </author>
+        <source>
+            <id>https://stunning-adventure-634vz8r.pages.github.io/T2/T2-3/tarea3-P1.html#desordenada</id>
+            <title>Tipos de listas</title>
+            <updated>2023-11-26T21:53:00Z</updated>
+        </source>
+        <summary>Demostración gráfica del distinto tipo de listas que hay en HTML</summary>
+        <updated>2023-11-26T21:53:00Z</updated>
+    </entry>
+
+    <entry>
+        <id>https://stunning-adventure-634vz8r.pages.github.io/T3/T3-6/</id>
+        <title>Modelo de cajas en CSS</title>
+        <link href="https://stunning-adventure-634vz8r.pages.github.io/T3/T3-6/"/>
+        <author>
+            <name>Jorge Pradillo</name>
+        </author>
+        <source>
+            <id>https://stunning-adventure-634vz8r.pages.github.io/T3/T3-6/</id>
+            <title>Modelo de cajas en CSS</title>
+            <updated>2024-01-13T20:55:00Z</updated>
+        </source>
+        <summary>Demostración de los distintos tipos de bordes que se pueden usar en la uión de HTML y CSS</summary>
+        <link rel="enclosure"
+              type="audio/mpeg"
+              title="MP3"
+              href="https://www.youtube.com/watch?v=JmSWdAl20bs"
+              length="1234"></link>
+        <updated>2024-01-13T20:55:00Z</updated>
+    </entry>
+</feed>
