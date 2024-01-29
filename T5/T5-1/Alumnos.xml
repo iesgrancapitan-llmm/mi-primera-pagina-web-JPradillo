@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DTD
+-->
+<!DOCTYPE alumnos [
+  <!ELEMENT alumnos (alumno+)>
+  <!ELEMENT alumno (nombre, apellidos, ciclo, (nota_media | nota_final))>
+  <!ATTLIST alumno expediente CDATA #REQUIRED>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT ciclo (#PCDATA)>
+  <!ELEMENT nota_final (#PCDATA)>
+  <!ELEMENT nota_media (#PCDATA)>
+]>
+<!-- En el caso de XML Copy Editor se cambiaría el <!DOCTYPE de arriba con el de la línea de abajo -->
+<!-- <!DOCTYPE alumnos SYSTEM
+"file:///C:/Users/User/Desktop/IES%20GRAN%20CAPITAN/LenguajeMarcas/Temas/Tema2/Ejercicios/mi-primera-pagina-web-JPradillo-main/mi-primera-pagina-web-JPradillo-main/T5/T5-1/AlumnosDTD.dtd"> -->
+<alumnos>
+  <alumno expediente="001">
+    <nombre>Jorge</nombre>
+    <apellidos>Pradillo Hinterberger</apellidos>
+    <ciclo>DAW</ciclo>
+    <!-- <nota_media>7</nota_media> -->
+    <nota_final>9</nota_final>
+  </alumno>
+  <alumno expediente="002">
+    <nombre>Juan</nombre>
+    <apellidos>Brizzi Leron</apellidos>
+    <ciclo>DAW</ciclo>
+    <nota_media>8</nota_media>
+    <!-- <nota_final>9</nota_final> -->
+  </alumno>
+</alumnos>
