@@ -2,7 +2,7 @@
 
 ## Hosting (Github Pages)
 
-### [Hosting-Github Pages](https://stunning-adventure-634vz8r.pages.github.io/)
+### [Hosting-Github Pages](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/)
 
 ### [Tema 2](./T2/README.md)
 
