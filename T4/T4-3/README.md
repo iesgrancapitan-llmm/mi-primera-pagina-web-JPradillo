@@ -66,7 +66,7 @@ Para hacerlo accesible a los demás, y una vez escrito y validado nuestro archiv
 ```html
 <link href="ud4_a3-atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
 ```
-[Indica aquí la url de tu sitio web.](https://stunning-adventure-634vz8r.pages.github.io/)
+[Indica aquí la url de tu sitio web.](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/)
 
 ## Suscripción
 Utiliza el lector/agregador feedly para añadir el fichero ATOM que has creado.
