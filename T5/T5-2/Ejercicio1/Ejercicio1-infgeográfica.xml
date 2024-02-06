@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    DTD
+-->
+<!DOCTYPE geografia_mundial [
+    <!ELEMENT geografia_mundial (paises+)>
+    <!ELEMENT paises (pais, continente,capital)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT continente (#PCDATA)>
+    <!ELEMENT capital EMPTY>
+    <!ATTLIST capital nombre ID #REQUIRED>
+]>
+<geografia_mundial>
+    <paises>
+        <pais>España</pais>
+        <continente>Europa</continente>
+        <capital nombre="Madrid"></capital>
+    </paises>
+</geografia_mundial>

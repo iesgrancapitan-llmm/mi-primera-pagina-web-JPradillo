@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    DTD
+-->
+<!DOCTYPE mundiales-de-futbol [
+    <!ELEMENT mundiales-de-futbol (mundial+)>
+    <!ELEMENT mundial (campeon, año)>
+    <!ELEMENT campeon (#PCDATA)>
+    <!ATTLIST campeon pais ID #REQUIRED>
+    <!ELEMENT año (#PCDATA)>
+]>
+<mundiales-de-futbol>
+    <mundial>
+        <campeon pais="España"/>
+        <año>1982</año>
+    </mundial>
+</mundiales-de-futbol>

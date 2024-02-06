@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    DTD
+-->
+<!DOCTYPE pedidos [
+    <!ELEMENT pedidos (pedido+)>
+    <!ELEMENT pedido (comprador, articulo*, direccion, entrega)>
+    <!ELEMENT comprador (#PCDATA)>
+    <!ELEMENT articulo (#PCDATA)>
+    <!ELEMENT direccion (calle, piso)>
+    <!ELEMENT calle EMPTY>
+    <!ATTLIST calle nombre CDATA #REQUIRED>
+    <!ATTLIST calle numero CDATA #REQUIRED>
+    <!ELEMENT piso (#PCDATA)>
+    <!ATTLIST piso numero CDATA #REQUIRED>
+    <!ELEMENT entrega EMPTY>
+    <!ATTLIST entrega fecha CDATA #REQUIRED>
+
+]>
+<pedidos>
+    <pedido>
+        <comprador>Juan Delgado Martínez</comprador>
+        <articulo>Bicicleta A2023</articulo>
+        <direccion>
+            <calle nombre="Barco" numero="3"/>
+            <piso numero="3">A</piso>
+        </direccion>
+        <entrega fecha="19-5-2000"/>
+    </pedido>
+</pedidos>

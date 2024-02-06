@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    DTD
+-->
+<!DOCTYPE texto [
+    <!ELEMENT texto (titulo, parrafo+, https)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT parrafo (#PCDATA|abreviatura)*>
+    <!ELEMENT abreviatura (#PCDATA)>
+    <!ELEMENT https (#PCDATA)>
+]>
+<texto>
+    <titulo>XML explicado a los niños</titulo>
+    <parrafo>El <abreviatura>XML</abreviatura>define cómo crear lenguajes de marcas.</parrafo>
+    <parrafo>Las marcas se añaden a un documento de texto para añadir información.</parrafo>
+    <https>www.example.org</https>
+</texto>

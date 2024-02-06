@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    DTD
+-->
+<!DOCTYPE programas [
+    <!ELEMENT programas (programa+)>
+    <!ELEMENT programa EMPTY>
+    <!ATTLIST programa nombre ID #REQUIRED>
+    <!ATTLIST programa licencia NMTOKENS #REQUIRED>
+]>
+<programas>
+    <programa nombre="Firefox" licencia="GPL MPL"/>
+    <programa nombre="LibreOffice" licencia="LGPL"/>
+    <programa nombre="Inkscape" licencia="GPL"/>
+</programas>
