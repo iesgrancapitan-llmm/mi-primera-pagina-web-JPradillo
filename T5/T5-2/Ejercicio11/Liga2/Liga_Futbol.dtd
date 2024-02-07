@@ -1,0 +1,10 @@
+<!ELEMENT liga (equipos+)>
+<!ELEMENT equipos (local,visitante,goles_local,goles_visitante)>
+<!ELEMENT local EMPTY>
+<!ATTLIST local nombre CDATA #REQUIRED>
+<!ELEMENT visitante EMPTY>
+<!ATTLIST visitante nombre CDATA #REQUIRED>
+<!ELEMENT goles_local EMPTY>
+<!ATTLIST goles_local cantidad NMTOKEN #REQUIRED>
+<!ELEMENT goles_visitante EMPTY>
+<!ATTLIST goles_visitante cantidad NMTOKEN #REQUIRED>

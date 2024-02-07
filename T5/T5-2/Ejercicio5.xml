@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arboles [
+    <!ELEMENT arboles (arbol+)>
+    <!ELEMENT arbol (nombre,vegetacion,altura,forma,estructura,ramaje,color+,resistencia)>
+    <!ATTLIST arbol nombre NMTOKEN #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT vegetacion (#PCDATA)>
+    <!ELEMENT altura (#PCDATA)>
+    <!ATTLIST altura unidad NMTOKEN #REQUIRED>
+    <!ELEMENT forma (#PCDATA)>
+    <!ELEMENT estructura (#PCDATA)>
+    <!ELEMENT ramaje (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ATTLIST color epoca NMTOKEN #REQUIRED>
+    <!ELEMENT resistencia (#PCDATA)>
+    <!ATTLIST resistencia tipo NMTOKEN #REQUIRED>
+]>
+<arboles>
+    <arbol nombre="Acer-monspessulanum">
+        <nombre>Arce de Montpellier, Arce menor</nombre>
+        <vegetacion>Cadufifolio</vegetacion>
+        <altura unidad="metros">De 6 a 10</altura>
+        <forma>Copa esférica</forma>
+        <estructura>Tronco principal recto con bifurcaciones.</estructura>
+        <ramaje>Colgante</ramaje>
+        <color epoca="primavera">Haz verde brillante, envés verde blanquecino</color>
+        <resistencia tipo="heladas">Heladas fuertes hasta -15ºC</resistencia>
+    </arbol>
+    <arbol nombre="Olea-europea">
+        <nombre>Olivo</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <altura unidad="metros">De 8 a 15</altura>
+        <forma>Copa irregular</forma>
+        <estructura>Tronco principal irregular con bifurcaciones.</estructura>
+        <ramaje>Tortuoso</ramaje>
+        <color epoca="primavera">HAz verde, envés verde plateado</color>
+        <resistencia tipo="heladas">Heladas medias hasta -10ºC</resistencia>
+    </arbol>
+    <arbol nombre="Platanus-orientalis">
+        <nombre>Plátano</nombre>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura unidad="metros">De 20 a 25</altura>
+        <forma>Copa ovoidal</forma>
+        <estructura>Tronco principal recto</estructura>
+        <ramaje>Expandido</ramaje>
+        <color epoca="primavera">Haz verde medio, envés verde claro</color>
+        <color epoca="otoño">Ocre</color>
+        <resistencia tipo="heladas">Heladas fuertes hasta -20ºC</resistencia>
+    </arbol>
+    <arbol nombre="Querus-ilex">
+        <nombre>Encina</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <altura unidad="metros">Entorno a 25</altura>
+        <forma>Copa esférica o elíptica irregular</forma>
+        <estructura>Tronco principal recto</estructura>
+        <ramaje>tortuoso</ramaje>
+        <color epoca="primavera">Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</color>
+        <resistencia tipo="heladas">Heladas fuertes hasta -15ºC</resistencia>
+    </arbol>
+</arboles>

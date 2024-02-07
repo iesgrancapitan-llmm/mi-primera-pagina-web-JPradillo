@@ -1,0 +1,6 @@
+<!ELEMENT liga (equipos+)>
+<!ELEMENT equipos EMPTY>
+<!ATTLIST equipos local CDATA #REQUIRED>
+<!ATTLIST equipos visitante CDATA #REQUIRED>
+<!ATTLIST equipos goles_local NMTOKEN #REQUIRED>
+<!ATTLIST equipos goles_visitante NMTOKEN #REQUIRED>

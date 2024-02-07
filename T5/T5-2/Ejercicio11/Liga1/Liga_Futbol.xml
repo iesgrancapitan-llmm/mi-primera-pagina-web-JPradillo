@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga SYSTEM "Liga_Futbol.dtd">
+<liga>
+    <equipos>
+        <local>Nottingham Presa</local>
+        <visitante>Inter de Mitente</visitante>
+        <goles_local>0</goles_local>
+        <goles_visitante>1</goles_visitante>
+    </equipos>
+    <equipos>
+        <local>Vodka Juniors</local>
+        <visitante>Sparta da Risa</visitante>
+        <goles_local>3</goles_local>
+        <goles_visitante>3</goles_visitante>
+    </equipos>
+    <equipos>
+        <local>Water de Munich</local>
+        <visitante>Esteaua es del grifo</visitante>
+        <goles_local>4</goles_local>
+        <goles_visitante>2</goles_visitante>
+    </equipos>
+</liga>
