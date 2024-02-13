@@ -2,6 +2,8 @@
 
 ## Actividad 5 - Factura
 
+[Consigna](./Actividad%205%20DTD-Factura.pdf)
+
 [XML](./Factura.xml)
 
 [DTD](./Factura.dtd)
