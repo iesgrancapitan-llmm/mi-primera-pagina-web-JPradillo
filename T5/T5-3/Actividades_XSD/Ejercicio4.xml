@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./Ejercicio4.xsd"?>
+<personas>
+    <persona fechanacimiento="20/05/98">
+        <nombre>Jorge</nombre>
+        <apellidos>Pradillo Hinterberger</apellidos>
+        <dni>77441122-A</dni>
+        <descripcion>Estudiante del primer curso del desarrollo de aplicaciones web</descripcion>
+    </persona>
+    <persona fechanacimiento="20/05/98">
+        <nombre>Matías</nombre>
+        <apellidos>Pradillo Hinterberger</apellidos>
+        <dni>77441123-G</dni>
+        <descripcion>Administrativo en Page Personnel Spain</descripcion>
+    </persona>      
+</personas>
