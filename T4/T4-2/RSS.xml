@@ -1,23 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Mi primera página web</title>
+    <title>Noticias</title>
     <description>Primera página web de un alumno de 1º de DAW del IES Gran Capitán</description>
     <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/</link>
-    <webMaster>a23prhijo@iesgrancapitan.org</webMaster>
-    <copyright>Jorge Pradillo Hinterberger</copyright>
     <category>Noticias</category>
-    <language>es-ES</language>
-    <lastBuildDate>Tue, 20 Feb 2024 17:18:00 GMT</lastBuildDate>
-    <image>
-      <url>https://github.com/iesgrancapitan-llmm/ud4-a2-creacion-de-canales-de-contenidos-formato-rss-JPradillo/blob/main/Mi-Primera-Web.png</url>
-      <title>Mi primera página Web</title>
-      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/</link>
-    </image>
+    <copyright>Jorge Pradillo Hinterberger</copyright>
+    <language>es</language>
+    <lastBuildDate>Tue, 20 Feb 2024 13:00:00 GMT</lastBuildDate>
+    <managingEditor>jpradillo7@gmail.com (Jorge Pradillo)</managingEditor>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
-    </skipDays>
+    </skipDays>    
     <skipHours>
       <hour>0</hour>
       <hour>1</hour>
@@ -26,56 +21,53 @@
       <hour>4</hour>
       <hour>5</hour>
     </skipHours>
-    
+    <image>
+      <url>https://github.com/iesgrancapitan-llmm/ud4-a2-creacion-de-canales-de-contenidos-formato-rss-JPradillo/blob/main/Mi-Primera-Web.png</url>
+      <title>Noticias</title>
+      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/</link>
+    </image>
     <item>
       <title>Campeones</title>
       <link>https://www.mundodeportivo.com/baloncesto/20240219/1002193565/real-madrid-campeon-mayor-diferencial-favorable-faltas-cometidas-recibidas-s-xxi.html</link>
       <description>El Real Madrid es el campeón con mayor diferencia de faltas recibidas/cometidas del siglo</description>
-      <author>SERGI PÉREZ y JESÚS PÉREZ RAMOS</author>
-      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+      <author>sergioperez@gmail.com</author>
+      <enclosure url="https://drive.google.com/file/d/1YURglcin2SeZIlfOZdIrrIGulFmmOFoF/view?usp=sharing"
         length="3000"
         type="image/jpg"/>
-      <category>Noticias</category>
-      <pubDate>Mon, 19 Feb 2024 20:59:00 CET</pubDate>
+      <pubDate>Mon, 19 Feb 2024 20:59:00 GMT</pubDate>
       <source url="https://www.mundodeportivo.com/baloncesto/20240219/1002193565/real-madrid-campeon-mayor-diferencial-favorable-faltas-cometidas-recibidas-s-xxi.html">Campeones copa ACB</source>
     </item>
-
     <item>
       <title>Policía descarta el homicidio</title>
       <link>https://www.huffingtonpost.es/sociedad/la-policia-descarta-homicidio-caso-menor-muerto-ingerir-cocaina-rosabr.html</link>
       <description>Policía descarta el homicidio en el caso del menor muerto tras ingerir cocaína rosa.</description>
-      <author>Redacción HuffPost</author>
-      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+      <author>blogs@huffpost.es</author>
+      <enclosure url="https://drive.google.com/file/d/13YE3jNVCYr_7LzRhWpvrpWnf8tlw4zWN/view?usp=sharing"
         length="3000"
         type="image/jpg"/>
-      <category>Noticias</category>
-      <pubDate>Tue, 20 Feb 2024 08:14:00 CET</pubDate>
+      <pubDate>Tue, 20 Feb 2024 08:14:00 GMT</pubDate>
       <source url="https://www.huffingtonpost.es/sociedad/la-policia-descarta-homicidio-caso-menor-muerto-ingerir-cocaina-rosabr.html"/>
     </item>
-
     <item>
       <title>Manifestación de tractoristas</title>
       <link>https://www.newtral.es/manifestacion-tractores-madrid-21-febrero/20240220/</link>
       <description>Gran manifestación de tractores este 21 de febrero en Madrid: consulta los itinerarios y cómo afectarán al tráfico</description>
-      <author>Yolanda García</author>
-      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+      <author>YolandaGarcía@gmail.com</author>
+      <enclosure url="https://drive.google.com/file/d/172Qj7OIX684-K5Z0txdH0dWy75mXQma4/view?usp=sharing"
         length="3000"
         type="image/jpg"/>
-      <category>Noticias</category>
-      <pubDate>Tue, 20 Feb 2024 08:14:00 CET</pubDate>
+      <pubDate>Tue, 20 Feb 2024 08:14:00 GMT</pubDate>
       <source url="https://www.newtral.es/manifestacion-tractores-madrid-21-febrero/20240220/"/>
     </item>
-
     <item>
       <title>Ralentizar o apagar la inteligencia artificial</title>
       <link>https://elpais.com/tecnologia/2024-02-20/brad-smith-presidente-de-microsoft-debemos-tener-una-manera-de-ralentizar-o-apagar-la-inteligencia-artificial.html#</link>
       <description>El ejecutivo se muestra partidario de que gobiernos y sociedad civil presionen a la industria para regular la IA: “Cuanto más poderosa se vuelve una tecnología, más fuertes tienen que ser los controles que la acompañen”</description>
-      <author>PATRICIA FERNÁNDEZ DE LIS</author>
-      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+      <author>Pfernandez@gmail.com</author>
+      <enclosure url="https://drive.google.com/file/d/1zKjX-JlL4AAjW8xFO45aF3Ue2fBldAO1/view?usp=sharing"
         length="3000"
         type="image/jpg"/>
-      <category>Noticias</category>
-      <pubDate>Tue, 20 Feb 2024 05:20:00 CET</pubDate>
+      <pubDate>Tue, 20 Feb 2024 05:20:00 GMT</pubDate>
       <source url="https://elpais.com/tecnologia/2024-02-20/brad-smith-presidente-de-microsoft-debemos-tener-una-manera-de-ralentizar-o-apagar-la-inteligencia-artificial.html#"/>
     </item>
   </channel>
