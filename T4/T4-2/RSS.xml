@@ -5,8 +5,10 @@
     <description>Primera página web de un alumno de 1º de DAW del IES Gran Capitán</description>
     <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/</link>
     <webMaster>a23prhijo@iesgrancapitan.org</webMaster>
-    <category>HTML y CSS</category>
+    <copyright>Jorge Pradillo Hinterberger</copyright>
+    <category>Noticias</category>
     <language>es-ES</language>
+    <lastBuildDate>Tue, 20 Feb 2024 17:18:00 GMT</lastBuildDate>
     <image>
       <url>https://github.com/iesgrancapitan-llmm/ud4-a2-creacion-de-canales-de-contenidos-formato-rss-JPradillo/blob/main/Mi-Primera-Web.png</url>
       <title>Mi primera página Web</title>
@@ -24,49 +26,57 @@
       <hour>4</hour>
       <hour>5</hour>
     </skipHours>
+    
     <item>
-      <title>CSS Dinner</title>
-      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T3/T3-1/</link>
-      <description>
-    Explicación de los selectores de CSS basándose en el juego interactivo CSS Dinner.
-      </description>
-      <author>Jorge Pradillo Hinterberger</author>
-      <category>CSS</category>
-      <pubDate>Sun, 19 Nov 2023 20:50:00 GMT</pubDate>
-      <source url="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T3/T3-1/"/>
+      <title>Campeones</title>
+      <link>https://www.mundodeportivo.com/baloncesto/20240219/1002193565/real-madrid-campeon-mayor-diferencial-favorable-faltas-cometidas-recibidas-s-xxi.html</link>
+      <description>El Real Madrid es el campeón con mayor diferencia de faltas recibidas/cometidas del siglo</description>
+      <author>SERGI PÉREZ y JESÚS PÉREZ RAMOS</author>
+      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+        length="3000"
+        type="image/jpg"/>
+      <category>Noticias</category>
+      <pubDate>Mon, 19 Feb 2024 20:59:00 CET</pubDate>
+      <source url="https://www.mundodeportivo.com/baloncesto/20240219/1002193565/real-madrid-campeon-mayor-diferencial-favorable-faltas-cometidas-recibidas-s-xxi.html">Campeones copa ACB</source>
     </item>
+
     <item>
-      <title>Grid Garden</title>
-      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T3/T3-2/</link>
-      <description>
-      Explicación de las propiedades de CSS basándose en el juego interactivo Grid Garden.
-      </description>
-      <author>Jorge Pradillo Hinterberger</author>
-      <category>CSS</category>
-      <pubDate>Wed, 29 Nov 2023 12:24:00 GMT</pubDate>
-      <source url="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T3/T3-2/"/>
+      <title>Policía descarta el homicidio</title>
+      <link>https://www.huffingtonpost.es/sociedad/la-policia-descarta-homicidio-caso-menor-muerto-ingerir-cocaina-rosabr.html</link>
+      <description>Policía descarta el homicidio en el caso del menor muerto tras ingerir cocaína rosa.</description>
+      <author>Redacción HuffPost</author>
+      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+        length="3000"
+        type="image/jpg"/>
+      <category>Noticias</category>
+      <pubDate>Tue, 20 Feb 2024 08:14:00 CET</pubDate>
+      <source url="https://www.huffingtonpost.es/sociedad/la-policia-descarta-homicidio-caso-menor-muerto-ingerir-cocaina-rosabr.html"/>
     </item>
+
     <item>
-      <title>Tipos de listas</title>
-      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T2/T2-3/</link>
-      <description>
-      Demostración gráfica del distinto tipo de listas que hay en HTML
-      </description>
-      <author>Jorge Pradillo Hinterberger</author>
-      <category>HTML</category>
-      <pubDate>Sun, 26 Nov 2023 21:53:00 GMT</pubDate>
-      <source url="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T2/T2-3/"/>
+      <title>Manifestación de tractoristas</title>
+      <link>https://www.newtral.es/manifestacion-tractores-madrid-21-febrero/20240220/</link>
+      <description>Gran manifestación de tractores este 21 de febrero en Madrid: consulta los itinerarios y cómo afectarán al tráfico</description>
+      <author>Yolanda García</author>
+      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+        length="3000"
+        type="image/jpg"/>
+      <category>Noticias</category>
+      <pubDate>Tue, 20 Feb 2024 08:14:00 CET</pubDate>
+      <source url="https://www.newtral.es/manifestacion-tractores-madrid-21-febrero/20240220/"/>
     </item>
+
     <item>
-      <title>Modelo de cajas en CSS</title>
-      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T3/T3-6/</link>
-      <description>
-      Demostración de los distintos tipos de bordes que se pueden usar en la uión de HTML y CSS.
-      </description>
-      <author>Jorge Pradillo Hinterberger</author>
-      <category>HTML/CSS</category>
-      <pubDate>Sat, 13 Jan 2024 20:55:00 GMT</pubDate>
-      <source url="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T3/T3-6/"/>
+      <title>Ralentizar o apagar la inteligencia artificial</title>
+      <link>https://elpais.com/tecnologia/2024-02-20/brad-smith-presidente-de-microsoft-debemos-tener-una-manera-de-ralentizar-o-apagar-la-inteligencia-artificial.html#</link>
+      <description>El ejecutivo se muestra partidario de que gobiernos y sociedad civil presionen a la industria para regular la IA: “Cuanto más poderosa se vuelve una tecnología, más fuertes tienen que ser los controles que la acompañen”</description>
+      <author>PATRICIA FERNÁNDEZ DE LIS</author>
+      <enclosure url="https://drive.google.com/drive/u/0/folders/1VSYS1Euo1zg_jhtWybIK-7CxkWCGArE6"
+        length="3000"
+        type="image/jpg"/>
+      <category>Noticias</category>
+      <pubDate>Tue, 20 Feb 2024 05:20:00 CET</pubDate>
+      <source url="https://elpais.com/tecnologia/2024-02-20/brad-smith-presidente-de-microsoft-debemos-tener-una-manera-de-ralentizar-o-apagar-la-inteligencia-artificial.html#"/>
     </item>
   </channel>
 </rss>
