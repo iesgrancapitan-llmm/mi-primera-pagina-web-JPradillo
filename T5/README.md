@@ -8,4 +8,6 @@ Entrega un listado de los ejercicios adjuntos. Entrégalos debidamente documenta
 
 [Validación XSD](./T5-3/README.md)
 
+[Validación XSD. Expresiones regulares en la faceta xs:pattern](./T5-4/README.md)
+
 [Atrás](../README.md)
