@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- definición de elementos simples -->
+    <xs:element name="elementoSimple"/>
+
+    <!-- definición de atributos -->
+    <xs:attribute name="atributoSimple"/>
+
+    <!-- definición de elementos  complejos -->
+    <xs:element name="elementoComplejo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Nombre" type="xs:string"/>
+                <xs:element name="Edad" type="xs:int"/>
+                <xs:element name="Direccion" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- definición de los tipos simples -->
+    <xs:simpleType name="elementoSimpleType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- definición de los tipos complejos -->
+    <xs:complexType name="elementoComplejoType">
+        <xs:sequence>
+            <xs:element name="Nombre" type="xs:string"/>
+            <xs:element name="Edad" type="xs:int"/>
+            <xs:element name="Direccion" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="ID" type="xs:ID"/>
+    </xs:complexType>
+
+    <!-- elemento raíz -->
+    <xs:element name="elementoRaiz" type="elementoComplejoType"></xs:element>
+    
+</xs:schema>
