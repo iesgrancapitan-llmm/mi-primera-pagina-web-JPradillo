@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://stunning-adventure-634vz8r.pages.github.io/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/">
     <title>Mi primera página web</title>
     <subtitle>Primera página web de un estudiante de 1ºDAW del IES Gran Capitán</subtitle>
-    <link href="https://stunning-adventure-634vz8r.pages.github.io/T4/T4-1/RSS-ATOM.html" rel="self"/>
-    <id>https://stunning-adventure-634vz8r.pages.github.io/T4/T4-1/RSS-ATOM.html</id>
+    <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T4/T4-3/ATOM.xml" rel="self"/>
+    <id>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-JPradillo/T4/T4-3/ATOM.xml</id>
     <updated>2023-11-19T20:50:00Z</updated>
     <author>
         <name>Jorge Pradillo Hinterberger</name>
