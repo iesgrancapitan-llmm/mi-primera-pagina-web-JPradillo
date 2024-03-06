@@ -77,9 +77,9 @@
 - [ ] ID
 - [ ] IDREF
 - [ ] ENTITY
-- [X] integer
+- [x] integer
 - [ ] yearMonthDuration
-- [X] nonPositiveInteger
+- [x] nonPositiveInteger
 - [X] negativeInteger
 - [X] long
 - [X] int
@@ -94,7 +94,7 @@
 - [X] unsignedByte
 - [X] positiveInteger
 
-5. Adjunta un [fichero .xsd](./ficheroXSD.xsd) con el siguiente diseño:
+5. Adjunta un [fichero.xsd](./ficheroXSD.xsd) con el siguiente diseño:
 ```xml
 <!-- definición de elementos simples -->
 <!-- definición de atributos -->
@@ -106,7 +106,8 @@
 
 6. Con respecto a la validación con XSD indica:
 - Un esquema es un documento *XML* al que se le coloca la extensión **.xsd**. Al ser un archivo XML tiene la estructura habitual de todo documento XML con la obligación de que el elemento **raíz** se llame **&lt;xsd:schema&gt;** .
-- Etiqueta que identifica la raíz de un documento XML Schema: 
+- Etiqueta que identifica la raíz de un documento XML Schema:
+  **&lt;xs:schema&gt;** 
 - Etiquetas que identifican las partes de un esquema:
   - Elementos, definidos con etiquetas **&lt;xs:element&gt;**. Para indicar los elementos permitidos en los documentos que sigan el esquema.
   - Atributos, etiqueta **&lt;xs:attribute&gt;**.
@@ -118,16 +119,30 @@
   - En ámbito **local**. Se trata de elementos definidos dentro de otros elementos. En ese caso se pueden utilizar sólo dentro del elemento en el que están inmersos y no en todo el documento. Es decir si, por ejemplo, si dentro de la definición de un atributo colocamos la definición de un tipo de datos, este tipo de datos sólo se puede utilizar dentro del elemento xs:attribute en el que se encuentra la definición del tipo de datos.
 - Dentro de la etiqueta xs:element, indica:
   - atributos obligatorios
-  - atributos optativos
+```xml
+<xs:attribute name="cliente_id" type="xs:string" use="required"/>
+```
 
-7. Definición de un elemento vacío en XSD
+
+  - atributos optativos
+```xml
+<xs:attribute name="telefono" type="xs:string" use="optional"/>  
+```
+
+1. Definición de un elemento vacío en XSD
   
 Un elemento vacío es uno que no tiene contenido, es decir, no contiene subelementos ni datos. En XML Schema, puedes definir elementos con contenido o elementos vacíos utilizando el elemento **&lt;element&gt;**.
 
 Un ejemplo de un elemento vacío en XSD podría ser algo así:
 
   ```xml
-  <xs:element name="elementoVacio" type="xs:string"/>
+  <xs:element name="elementoVacio" type="xs:string">
+    <xs:complexType>
+  </xs:element>
+  ```
+
+  ```xml
+  <elementoVacio/>
   ```
   
 En este ejemplo, se define un elemento llamado "elementoVacio" que tiene un tipo de datos de cadena (xs:string). Este elemento no tiene restricciones adicionales y no tiene contenido interno, por lo que se consideraría un elemento vacío.
