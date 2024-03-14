@@ -12,4 +12,6 @@ Entrega un listado de los ejercicios adjuntos. Entrégalos debidamente documenta
 
 [Conceptos de validación.](./T5-5/README.md)
 
+[Práctica 5-6](./T5-6/README.md)
+
 [Atrás](../README.md)
